@@ -1,22 +1,12 @@
+<h1>Formulário para cadastramento</h1>
+
 <form action="/form" method="POST">
-    <div>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" />
-    </div>
-    <br>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    </div>
-        <br>
+    <label> Nome</label><br>
+    <input type="text" name="name"><br>
+    <label> email</label><br>
+    <input type="text" name="email"><br>
+    <label> Mensagem</label><br>
+    <textarea name="mensagem"> </textarea> <br>
+    <button type="submit">Enviar</button>
 
-    <div>
-        <label for="msg">Mensagem:</label>
-        <textarea id="msg"></textarea>
-    </div>
-        <br>
-
-    <div class="button">
-        <button type="submit">Enviar sua mensagem</button>
-    </div>
 </form>
